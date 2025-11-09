@@ -6,7 +6,7 @@ This tutorial will guide you through running the GEG2P algorithm smoothly. With 
 ## Step 2: Create Environment
 1. Enter the GEG2P directory  
 ```bash
-cd GEG2P
+cd 01GEG2P_code
 ```
 2. Execute the following command to create the GEG2P environment
 ```bash
