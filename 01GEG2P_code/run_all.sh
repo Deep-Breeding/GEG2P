@@ -5,15 +5,15 @@ eval "$(conda shell.bash hook)"
 conda activate $CONDA_ENV
 
 run_name="_Maize"  # Define the save directory name for each run
-SNP_PATH="data/CUBIC1404-42938-BLUP/1404_42938_geno.csv"
-PHE_PATH="data/CUBIC1404-42938-BLUP/Agronomic_23Traits.csv"
-CVF_PATH="data/CUBIC1404-42938-BLUP/CVF.csv"
+SNP_PATH="demo_data/genotype.csv"
+PHE_PATH="demo_data/phenotype.csv"
+CVF_PATH="demo_data/CVFs.csv"
 
 
-TRAITS=("EW")
+TRAITS=("trait1")
 
 KMAX=10
-SNP_NUM=42938
+SNP_NUM=200
 
 Rscript run_G2P.R \
   --plant "$run_name" \
